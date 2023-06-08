@@ -1087,7 +1087,7 @@ public class DevisPersonneAmiableService {
         document.close();
         outputStream1.close();
         File file = new File("src/main/resources/exported_report.docx");
-        emailService.sendHtmlMessage("anassbougaterra@gmail.com", "Demande Devis", byteArray, file);
+        emailService.sendHtmlMessage("salahelkacimi@gmail.com", "Demande Devis", byteArray, file);
         return savedDevis;
         }
         public List<DevisPersonneAmiable> findAll() {
